@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Type Resistance Calculator</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body onLoad="displayResutls()">
+    <h1>Pokemon Type Resistance Calculator</h1>
+
+    <div class="typeBoxes">
+        <div class="selectType">
+            <h2>Add type</h2>
+            <input type="button" class="addTypeButton" id="normalAdd" value="Normal" onClick="addType(0)">
+            <input type="button" class="addTypeButton" id="fireAdd" value="Fire" onClick="addType(1)">
+            <input type="button" class="addTypeButton" id="waterAdd" value="Water" onClick="addType(2)">
+            <input type="button" class="addTypeButton" id="grassAdd" value="Grass" onClick="addType(3)">
+            <input type="button" class="addTypeButton" id="electricAdd" value="Electric" onClick="addType(4)">
+            <input type="button" class="addTypeButton" id="iceAdd" value="Ice" onClick="addType(5)">
+            <input type="button" class="addTypeButton" id="fightingAdd" value="Fighting" onClick="addType(6)">
+            <input type="button" class="addTypeButton" id="poisonAdd" value="Poison" onClick="addType(7)">
+            <input type="button" class="addTypeButton" id="groundAdd" value="Ground" onClick="addType(8)">
+            <input type="button" class="addTypeButton" id="flyingAdd" value="Flying" onClick="addType(9)">
+            <input type="button" class="addTypeButton" id="psychicAdd" value="Psychic" onClick="addType(10)">
+            <input type="button" class="addTypeButton" id="bugAdd" value="Bug" onClick="addType(11)">
+            <input type="button" class="addTypeButton" id="rockAdd" value="Rock" onClick="addType(12)">
+            <input type="button" class="addTypeButton" id="ghostAdd" value="Ghost" onClick="addType(13)">
+            <input type="button" class="addTypeButton" id="dragonAdd" value="Dragon" onClick="addType(14)">
+            <input type="button" class="addTypeButton" id="darkAdd" value="Dark" onClick="addType(15)">
+            <input type="button" class="addTypeButton" id="steelAdd" value="Steel" onClick="addType(16)">
+            <input type="button" class="addTypeButton" id="fairyAdd" value="Fairy" onClick="addType(17)">
+        </div>
+        <div class="selectType">
+            <h2>Remove type</h2>
+            <input type="button" class="removeTypeButton" id="normalRemove" value="Normal" onClick="removeType(0)">
+            <input type="button" class="removeTypeButton" id="fireRemove" value="Fire" onClick="removeType(1)">
+            <input type="button" class="removeTypeButton" id="waterRemove" value="Water" onClick="removeType(2)">
+            <input type="button" class="removeTypeButton" id="grassRemove" value="Grass" onClick="removeType(3)">
+            <input type="button" class="removeTypeButton" id="electricRemove" value="Electric" onClick="removeType(4)">
+            <input type="button" class="removeTypeButton" id="iceRemove" value="Ice" onClick="removeType(5)">
+            <input type="button" class="removeTypeButton" id="fightingRemove" value="Fighting" onClick="removeType(6)">
+            <input type="button" class="removeTypeButton" id="poisonRemove" value="Poison" onClick="removeType(7)">
+            <input type="button" class="removeTypeButton" id="groundRemove" value="Ground" onClick="removeType(8)">
+            <input type="button" class="removeTypeButton" id="flyingRemove" value="Flying" onClick="removeType(9)">
+            <input type="button" class="removeTypeButton" id="psychicRemove" value="Psychic" onClick="removeType(10)">
+            <input type="button" class="removeTypeButton" id="bugRemove" value="Bug" onClick="removeType(11)">
+            <input type="button" class="removeTypeButton" id="rockRemove" value="Rock" onClick="removeType(12)">
+            <input type="button" class="removeTypeButton" id="ghostRemove" value="Ghost" onClick="removeType(13)">
+            <input type="button" class="removeTypeButton" id="dragonRemove" value="Dragon" onClick="removeType(14)">
+            <input type="button" class="removeTypeButton" id="darkRemove" value="Dark" onClick="removeType(15)">
+            <input type="button" class="removeTypeButton" id="steelRemove" value="Steel" onClick="removeType(16)">
+            <input type="button" class="removeTypeButton" id="fairyRemove" value="Fairy" onClick="removeType(17)">
+        </div>
+    </div>
+
+    <div class="resultsBox">
+        <div id="output">
+        </div>
+
+        <div id="scoreBox">
+        </div>
+    </div>
+
+
+    <div>
+        <img src="https://img.pokemondb.net/images/typechart.png" alt="Type Chart">
+    </div>
+</body>
+</html>

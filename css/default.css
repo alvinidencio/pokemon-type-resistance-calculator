@@ -1,0 +1,162 @@
+body {
+  background-color: #121212;
+  color: whitesmoke;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.typeBoxes {
+  display: flex;
+}
+
+.addTypeButton,
+.removeTypeButton {
+  padding: 10px 25px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeTypeButton {
+  display: none;
+}
+
+.selectType {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  flex-basis: 50%;
+}
+
+.resultsBox {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+#output {
+  flex-basis: 70%;
+}
+
+#scoreBox {
+  flex-basis: 30%;
+  padding: 25px;
+  text-align: center;
+}
+
+#resultsTable {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  margin: 5px;
+  table-layout: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#normalAdd,
+#normalRemove {
+  background-color: #a8a878;
+}
+
+#fireAdd,
+#fireRemove {
+  background-color: #f08030;
+}
+
+#waterAdd,
+#waterRemove {
+  background-color: #6890f0;
+}
+
+#grassAdd,
+#grassRemove {
+  background-color: #78c850;
+}
+
+#electricAdd,
+#electricRemove {
+  background-color: #f8d030;
+}
+
+#iceAdd,
+#iceRemove {
+  background-color: #98d8d8;
+}
+
+#fightingAdd,
+#fightingRemove {
+  background-color: #c03028;
+}
+
+#poisonAdd,
+#poisonRemove {
+  background-color: #a040a0;
+}
+
+#groundAdd,
+#groundRemove {
+  background-color: #e0c068;
+}
+
+#flyingAdd,
+#flyingRemove {
+  background-color: #a890f0;
+}
+
+#psychicAdd,
+#psychicRemove {
+  background-color: #f85888;
+}
+
+#bugAdd,
+#bugRemove {
+  background-color: #a8b820;
+}
+
+#rockAdd,
+#rockRemove {
+  background-color: #b8a038;
+}
+
+#ghostAdd,
+#ghostRemove {
+  background-color: #705898;
+}
+
+#dragonAdd,
+#dragonRemove {
+  background-color: #7038f8;
+}
+
+#darkAdd,
+#darkRemove {
+  background-color: #705848;
+}
+
+#steelAdd,
+#steelRemove {
+  background-color: #b8b8d0;
+}
+
+#fairyAdd,
+#fairyRemove {
+  background-color: #ee99ac;
+}
